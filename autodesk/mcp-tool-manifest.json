@@ -1,0 +1,204 @@
+{
+  "mcp_manifest_version": "1.0",
+  "app_model": "C",
+  "mcp_spec_version": "2025-11-25",
+  "server": {
+    "name": "drillerdb",
+    "transport": "streamable-http",
+    "url": "https://mcp.drillerdb.com"
+  },
+  "tools": [
+    {
+      "name": "ar_aging_report",
+      "description": "Calculates accounts receivable aging totals and invoice balances for the signed-in DrillerDB company."
+    },
+    {
+      "name": "customer_ltv_report",
+      "description": "Summarizes billed revenue, payments, and project history for customers in the signed-in company."
+    },
+    {
+      "name": "get_communication_detail",
+      "description": "Reads one company communication record and its related project or customer details."
+    },
+    {
+      "name": "get_company_proposal_habits",
+      "description": "Summarizes the signed-in company's historical proposal terms, pricing patterns, and formatting preferences."
+    },
+    {
+      "name": "get_compliance_form",
+      "description": "Reads the fields and current draft values for an available project compliance form."
+    },
+    {
+      "name": "get_equipment_detail",
+      "description": "Reads details, maintenance information, and assignment data for one company equipment record."
+    },
+    {
+      "name": "get_geology_at_location",
+      "description": "Summarizes company well logs and public well records near a project, coordinate, or geocoded address."
+    },
+    {
+      "name": "get_invoice_detail",
+      "description": "Reads one invoice with line items, totals, payments, customer information, and project linkage."
+    },
+    {
+      "name": "get_job_profitability",
+      "description": "Calculates revenue, costs, and gross profit for a company project."
+    },
+    {
+      "name": "get_maintenance_due",
+      "description": "Lists company equipment maintenance that is due or approaching its service threshold."
+    },
+    {
+      "name": "get_project_compliance_status",
+      "description": "Reads permit and regulatory form status for one company project."
+    },
+    {
+      "name": "get_project_detail",
+      "description": "Reads operational, customer, location, schedule, and status details for one company project."
+    },
+    {
+      "name": "get_project_financials",
+      "description": "Summarizes proposal, invoice, payment, cost, and profitability information for one project."
+    },
+    {
+      "name": "get_proposal_detail",
+      "description": "Reads one proposal with line items, terms, deposit fields, customer information, and project linkage."
+    },
+    {
+      "name": "get_quote_detail",
+      "description": "Reads one customer quote and its line items, status, pricing, and related customer data."
+    },
+    {
+      "name": "get_quote_engagement",
+      "description": "Reads customer engagement events such as opens and views for a quote."
+    },
+    {
+      "name": "get_timecard_summary",
+      "description": "Summarizes employee time by date and project for the signed-in company."
+    },
+    {
+      "name": "get_work_order_detail",
+      "description": "Reads one service work order with customer, location, assignment, schedule, and status information."
+    },
+    {
+      "name": "list_communications",
+      "description": "Lists company communications using project, customer, channel, date, and status filters."
+    },
+    {
+      "name": "list_contacts",
+      "description": "Lists customer and business contacts belonging to the signed-in company."
+    },
+    {
+      "name": "list_crews",
+      "description": "Lists drilling crews and their current members for scheduling and dispatch planning."
+    },
+    {
+      "name": "list_customers",
+      "description": "Lists customers belonging to the signed-in DrillerDB company."
+    },
+    {
+      "name": "list_equipment",
+      "description": "Lists company rigs, vehicles, pumps, and other tracked equipment."
+    },
+    {
+      "name": "list_field_reports",
+      "description": "Lists submitted field reports using project, crew, and date filters."
+    },
+    {
+      "name": "list_inventory",
+      "description": "Lists company inventory items, quantities, suppliers, and reorder information."
+    },
+    {
+      "name": "list_invoices",
+      "description": "Lists company invoices using customer, project, status, and date filters."
+    },
+    {
+      "name": "list_my_projects",
+      "description": "Lists drilling projects visible to the signed-in user with customer, location, schedule, and status summaries."
+    },
+    {
+      "name": "list_project_files",
+      "description": "Lists files attached to a company project without exposing unrelated company or tenant data."
+    },
+    {
+      "name": "list_projects_by_customer",
+      "description": "Lists drilling projects associated with a selected company customer."
+    },
+    {
+      "name": "list_proposals",
+      "description": "Lists company proposals using customer, project, status, and date filters."
+    },
+    {
+      "name": "list_timecards",
+      "description": "Lists employee time entries using employee, project, and date filters."
+    },
+    {
+      "name": "list_work_orders",
+      "description": "Lists pump, service, and return work orders belonging to the signed-in company."
+    },
+    {
+      "name": "query_schedule",
+      "description": "Reads project and crew schedule entries using date, crew, and project filters."
+    },
+    {
+      "name": "query_well_logs",
+      "description": "Reads geology intervals, casing, water levels, and drilling notes from a company project well log."
+    },
+    {
+      "name": "revenue_pipeline",
+      "description": "Summarizes proposed, scheduled, invoiced, paid, and outstanding revenue for the company."
+    },
+    {
+      "name": "run_report",
+      "description": "Runs an available saved operational or financial report for the signed-in company."
+    },
+    {
+      "name": "total_billed_by_contact",
+      "description": "Calculates billed, paid, and outstanding totals for a customer contact and their projects."
+    },
+    {
+      "name": "attach_note_to_project",
+      "description": "Adds an audit-logged note to a project in the signed-in company."
+    },
+    {
+      "name": "dispatch_project",
+      "description": "Prepares and, after explicit human approval, dispatches a company crew to a scheduled project."
+    },
+    {
+      "name": "import_vendor_invoice",
+      "description": "Prepares and, after explicit human approval, imports a vendor invoice into company accounting records."
+    },
+    {
+      "name": "plan_crew_route",
+      "description": "Creates a proposed route from the selected company crew's scheduled project locations."
+    },
+    {
+      "name": "schedule_project",
+      "description": "Prepares and, after explicit human approval, assigns a company project to a date and crew."
+    },
+    {
+      "name": "send_invoice",
+      "description": "Prepares and, after explicit human approval, sends an existing company invoice to its customer."
+    },
+    {
+      "name": "submit_field_report",
+      "description": "Adds a field report to a project in the signed-in company."
+    },
+    {
+      "name": "update_project_status",
+      "description": "Prepares and, after explicit human approval, changes the operational status of a company project."
+    }
+  ],
+  "resources": [],
+  "prompts": [],
+  "external_endpoints": [
+    "https://mcp.drillerdb.com",
+    "https://app.drillerdb.com",
+    "https://maps.googleapis.com",
+    "https://dnr.wi.gov",
+    "https://gis.blm.gov",
+    "https://developer.townshipamerica.com"
+  ],
+  "autodesk_apis_used": [],
+  "ai_llm_providers": []
+}
