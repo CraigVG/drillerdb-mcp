@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "drillerdb": {
+      "url": "https://mcp.drillerdb.com"
+    }
+  }
+}
