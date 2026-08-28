@@ -2,9 +2,9 @@
 
 Remote [Model Context Protocol](https://modelcontextprotocol.io) server for
 [DrillerDB](https://drillerdb.com), the operating system for water-well and
-drilling contractors. Connect your DrillerDB account to Claude, Cursor, VS Code,
-or any MCP client and work with your real jobs, customers, invoices, crews, and
-well logs in plain English.
+drilling contractors. Connect your DrillerDB account to Microsoft Copilot,
+Claude, ChatGPT, Codex, Cursor, VS Code, or any MCP client and work with your
+real jobs, customers, invoices, crews, and well logs in plain English.
 
 ```
 https://mcp.drillerdb.com
@@ -17,7 +17,7 @@ https://mcp.drillerdb.com
 | **Hosting** | Managed by DrillerDB, LLC. Nothing to install or self-host. |
 | **Account** | Requires an active DrillerDB account ([app.drillerdb.com](https://app.drillerdb.com)) |
 | **Registry name** | `com.drillerdb/drillerdb` |
-| **Full docs** | [drillerdb.com/connectors/claude](https://drillerdb.com/connectors/claude) |
+| **Full docs** | [drillerdb.com/connectors/mcp](https://drillerdb.com/connectors/mcp) |
 
 > This repository holds the public documentation and the
 > [`server.json`](server.json) registry manifest for the hosted DrillerDB MCP
@@ -41,6 +41,13 @@ claude mcp add --transport http drillerdb https://mcp.drillerdb.com
 
 Settings -> Connectors -> Add custom connector, then paste
 `https://mcp.drillerdb.com`.
+
+### Microsoft Copilot
+
+DrillerDB is preparing the server for Microsoft MCP certification. After
+Microsoft publishes the certified connector, administrators can enable it from
+Microsoft's agent and connector catalog. The same DrillerDB OAuth sign-in and
+company-level permissions apply.
 
 ### Cursor / VS Code / other clients
 
@@ -169,7 +176,7 @@ company's own DrillerDB tenant data.
 
 ## Support
 
-- Documentation: <https://drillerdb.com/connectors/claude>
+- Documentation: <https://drillerdb.com/connectors/mcp>
 - Email: <support@drillerdb.com>
 - Issues with this documentation: open an issue on this repository.
 
