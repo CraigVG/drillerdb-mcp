@@ -49,6 +49,17 @@ Microsoft publishes the certified connector, administrators can enable it from
 Microsoft's agent and connector catalog. The same DrillerDB OAuth sign-in and
 company-level permissions apply.
 
+### Gemini CLI
+
+Install the DrillerDB extension directly from this repository:
+
+```bash
+gemini extensions install https://github.com/CraigVG/drillerdb-mcp
+```
+
+Gemini CLI loads the managed endpoint from `gemini-extension.json` and starts
+the DrillerDB OAuth sign-in flow when you authenticate the server.
+
 ### Cursor / VS Code / other clients
 
 ```json

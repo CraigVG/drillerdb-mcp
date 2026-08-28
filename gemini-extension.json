@@ -1,0 +1,11 @@
+{
+  "name": "drillerdb-mcp",
+  "version": "1.0.1",
+  "description": "Connect Gemini CLI to DrillerDB jobs, customers, invoices, crews, schedules, equipment, and well logs.",
+  "mcpServers": {
+    "drillerdb": {
+      "description": "Securely work with your DrillerDB company through the managed OAuth-enabled MCP server.",
+      "httpUrl": "https://mcp.drillerdb.com"
+    }
+  }
+}
