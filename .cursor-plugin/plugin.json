@@ -1,0 +1,21 @@
+{
+  "name": "drillerdb",
+  "version": "1.0.1",
+  "description": "Connect Cursor to DrillerDB jobs, customers, invoices, crews, schedules, equipment, and well logs.",
+  "author": {
+    "name": "DrillerDB, LLC",
+    "email": "support@drillerdb.com"
+  },
+  "homepage": "https://drillerdb.com/connectors/mcp",
+  "repository": "https://github.com/CraigVG/drillerdb-mcp",
+  "license": "MIT",
+  "keywords": [
+    "mcp",
+    "drilling",
+    "construction",
+    "field-service",
+    "oauth"
+  ],
+  "logo": "https://drillerdb.com/drillerdb-images/logo512.png",
+  "mcpServers": "mcp.json"
+}
