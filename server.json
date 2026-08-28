@@ -3,8 +3,8 @@
   "name": "com.drillerdb/drillerdb",
   "title": "DrillerDB",
   "description": "Drilling jobs, customers, invoices, crews, schedules, and well logs for well contractors.",
-  "version": "1.0.0",
-  "websiteUrl": "https://drillerdb.com/connectors/claude",
+  "version": "1.0.1",
+  "websiteUrl": "https://drillerdb.com/connectors/mcp",
   "repository": {
     "url": "https://github.com/CraigVG/drillerdb-mcp",
     "source": "github"

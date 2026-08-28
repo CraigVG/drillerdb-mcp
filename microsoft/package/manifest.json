@@ -1,0 +1,54 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/vDevPreview/MicrosoftTeams.schema.json",
+  "manifestVersion": "devPreview",
+  "version": "1.0.0",
+  "id": "e2694fb9-0c61-4e9c-9298-cfbf41074775",
+  "developer": {
+    "name": "DrillerDB, LLC",
+    "websiteUrl": "https://drillerdb.com/connectors/mcp",
+    "privacyUrl": "https://drillerdb.com/privacy",
+    "termsOfUseUrl": "https://drillerdb.com/terms",
+    "contactInfo": {
+      "defaultSupport": {
+        "userEmailsForChatSupport": [
+          "support@drillerdb.com"
+        ],
+        "emailsForEmailSupport": [
+          "support@drillerdb.com"
+        ]
+      }
+    }
+  },
+  "name": {
+    "short": "DrillerDB MCP",
+    "full": "DrillerDB MCP Server for Drilling Operations"
+  },
+  "description": {
+    "short": "Use DrillerDB jobs, customers, invoices, schedules, and well logs in Copilot.",
+    "full": "Connect Microsoft Copilot and other Microsoft agent experiences to your DrillerDB company. Ask about live drilling projects, customers, proposals, invoices, work orders, crews, schedules, field reports, equipment, inventory, project financials, accounts receivable, compliance status, and well logs. DrillerDB uses OAuth 2.0, binds every request to the signed-in user's company and current role, records every tool call in an audit log, and requires explicit human approval before higher-risk or customer-facing actions run. An active DrillerDB account is required."
+  },
+  "agentConnectors": [
+    {
+      "id": "6e76285a-6789-4229-851a-c7aa4d8eebae",
+      "displayName": "DrillerDB",
+      "description": "Use DrillerDB projects, customers, invoices, operations, equipment, compliance, and well-log data in Microsoft agents.",
+      "toolSource": {
+        "remoteMcpServer": {
+          "mcpServerUrl": "https://mcp.drillerdb.com",
+          "mcpToolDescription": {
+            "file": "mcptools.json"
+          },
+          "authorization": {
+            "type": "AzureKeyVault",
+            "referenceId": "https://drillerdb-mcp-cert.vault.azure.net/"
+          }
+        }
+      }
+    }
+  ],
+  "icons": {
+    "outline": "Outline.png",
+    "color": "Color.png"
+  },
+  "accentColor": "#FC6600"
+}
