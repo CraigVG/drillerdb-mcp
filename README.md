@@ -54,7 +54,7 @@ company-level permissions apply.
 Install the DrillerDB extension directly from this repository:
 
 ```bash
-gemini extensions install https://github.com/CraigVG/drillerdb-mcp
+gemini extensions install https://github.com/DrillerDB/drillerdb-mcp
 ```
 
 Gemini CLI loads the managed endpoint from `gemini-extension.json` and starts
