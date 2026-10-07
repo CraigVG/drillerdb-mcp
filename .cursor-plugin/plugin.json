@@ -7,7 +7,7 @@
     "email": "support@drillerdb.com"
   },
   "homepage": "https://drillerdb.com/connectors/mcp",
-  "repository": "https://github.com/CraigVG/drillerdb-mcp",
+  "repository": "https://github.com/DrillerDB/drillerdb-mcp",
   "license": "MIT",
   "keywords": [
     "mcp",
